@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_size">270dp</dimen>
+    <dimen name="small_padding">10dp</dimen>
+    <dimen name="small_text_size">17sp</dimen>
+    <dimen name="body_text_size">15sp</dimen>
+    <dimen name="medium_text_size">20sp</dimen>
+    <dimen name="start_margin">20dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="card_size">100dp</dimen>
+    <item name="guidline_percentage" type="dimen" format="float">0.2</item>
+</resources>
