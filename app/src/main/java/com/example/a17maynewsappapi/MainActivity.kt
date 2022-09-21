@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun passData() {
         val requestQueue: RequestQueue = Volley.newRequestQueue(this)
-        val key = URLEncoder.encode("yHAOq57AkUOboW3K7g-1JHcqqofPWeqduwN0kAEZYo5ydDUf","UTF-8")
+        val key = URLEncoder.encode("Ki_qUX86idPxOSiDCjXdYhKLEth-pl-R8vHQStBOZXsZ3YZA","UTF-8")
         /*val search= URLEncoder.encode("twitter","UTF-8")*/
         val request = StringRequest(
             Request.Method.GET, "https://api.currentsapi.services/v1/latest-news?apiKey=$key", { apiResponse: String ->

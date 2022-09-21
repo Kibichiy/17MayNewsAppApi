@@ -33,8 +33,7 @@ class NewsAdapter(private var context: Context, val newsData: List<NewsData>) :
             Glide.with(context).load(newsData[position].image)
                 .placeholder(R.drawable.m3_popupmenu_background_overlay)
                 .into(binding.imageView)
-
-
+            //comment
         }
     }
 
